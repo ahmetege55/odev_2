@@ -6,21 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ödev2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Serif:ital,opsz,wght@1,8..144,500&display=swap" rel="stylesheet">
 </head>
 <body>
     <section class="main">
         <div class="card">
            <div class="circle">
-               <img src="av5c8336583e291842624.png" width="40px" height="40px">
+               <img src="av5c8336583e291842624.png" width="80px" height="80px">
                <p>BASIC</p>
            </div>
+           
            <p>KR <span>199</span></p>
+           
            <p>NOK/MONTH</p>
+          
            <div class="amount">
-               <a href="">10</a>
-               <a href="">25</a>
-               <a href="">50</a>
-               <a href="">100</a>
+               
+                    <input type="radio" id="10" name="price" checked>
+                    <label for="10">10</label>
+                    <input type="radio" id="25" name="price">
+                    <label for="25">25</label> 
+                    <input type="radio" id="50" name="price">
+                    <label for="50"  >50</label>
+                    <input type="radio" id="100" name="price">
+                    <label for="100">100</label>
+              
            </div>
            <p>Downloads per month</p>
            <button>Subscribe</button>
